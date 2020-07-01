@@ -17,14 +17,17 @@ section{
 .work{
     width:25%;
     height:300px;
-    
+    margin-top:20px;
 }
 
 #text{
     margin-top:5%;
 }
-.text-color{
+.name-color{
     color: darkviolet;
+}
+.text-color{
+    color: white;
 }
 .same-line img{
     width:100%;
@@ -56,14 +59,13 @@ h2{
 #text-center{
     text-align: center;
 }
-/* contact section starrt */
+
 #contact{
-    background-image: url("images/footer-bg.png");
-    background-repeat: no-repeat;
+    
     transform: -50%;
     width: 100%;
     text-align: center;
-    padding-top:100px;
+    padding-top:150px;
     
   
 }
@@ -93,19 +95,18 @@ h2{
     transform: scale(1.15);
     color: deeppink;
 }
-/* contact section end */
-/*  customer  feedback section start*/
+
 .personal-feedback{
     width:20%;
     margin-left: 8%;
     padding-left: 2%;
     float: left;
-    margin-top:2%;
+    
     box-shadow: 10px 10px 30px gray;
     border-radius: 10px;
     
     border-left: 7px solid;
-    border-image: linear-gradient(180deg,blue,cyan);
+    border-image: linear-gradient(180deg,mediumorchid,purple);
     border-image-slice: 1;
 }
 .personal-feedback:hover{
@@ -114,11 +115,37 @@ h2{
 .personal-feedback h2   {
     color: orange;
 }
-
+#feedback{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+}
 #feedback h1{
     text-align: center;
     font-weight: bold;
 
 }
-/*  customer  feedback section end*/
+
+#email{
+    background-image: linear-gradient(180deg,mediumorchid,darkviolet);
+    border-radius:7px;
+    text-align:center;
+    padding:10px 20px;
+    width:300px;
+    height:100px;
+    margin:auto;
+
+    
+   
+    
+}
+.image{
+    width:40%;
+    height:500px;
+}
+
+footer{
+    text-align: center;
+    color:darkmagenta;
+}
+
 
