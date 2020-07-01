@@ -1,0 +1,124 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+}
+section{
+    height:500px;
+    
+    
+}
+.same-line{
+    width:40%;
+    float:left;
+    margin-left:2%;
+    padding-left:5%;
+}
+
+.work{
+    width:25%;
+    height:300px;
+    
+}
+
+#text{
+    margin-top:5%;
+}
+.text-color{
+    color: darkviolet;
+}
+.same-line img{
+    width:100%;
+}
+h2{
+   font-weight: bold; 
+}
+.link{
+    background-color: darkviolet;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    padding:10px 10px;
+}
+#first-section{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+}
+#second-section{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+}
+#third-section{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    
+
+}
+#text-center{
+    text-align: center;
+}
+/* contact section starrt */
+#contact{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    transform: -50%;
+    width: 100%;
+    text-align: center;
+    padding-top:100px;
+    
+  
+}
+#contact h1{
+    text-align: center;
+    font-weight: bold;
+    
+}
+.btn{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background-color: #f1f1f1;
+    margin: 10px;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px -5px #00000070;
+    color: darkviolet;
+    overflow: hidden;
+    position: relative;
+}
+.btn i{
+    line-height: 90px;
+    font-size: 26px;
+    transition:  .2s linear;
+}
+.btn:hover{
+    transform: scale(1.15);
+    color: deeppink;
+}
+/* contact section end */
+/*  customer  feedback section start*/
+.personal-feedback{
+    width:20%;
+    margin-left: 8%;
+    padding-left: 2%;
+    float: left;
+    margin-top:2%;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 10px;
+    
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+.personal-feedback:hover{
+    transform: scale(1.1);
+}
+.personal-feedback h2   {
+    color: orange;
+}
+
+#feedback h1{
+    text-align: center;
+    font-weight: bold;
+
+}
+/*  customer  feedback section end*/
+
